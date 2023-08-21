@@ -1,0 +1,31 @@
+
+.content {
+        width: 50%;
+        margin:auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.project-description {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+.project-description img {
+    max-width: 80%;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.project-description-text {
+    min-height: 50px;
+    overflow: hidden;
+  }
+
+.separator {
+    border-bottom: 1px solid black;
+}
