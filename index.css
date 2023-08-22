@@ -8,24 +8,36 @@
     text-align: center;
 }
 
-.project-description {
-    display: inline-block;
-    width: 200px;
-    height: 250px;
-    margin: 10px;
+.page-title
+{
+    text-align: center;
+    margin: auto;
 }
 
 .project-description img {
-    max-width: 80%;
+    max-width: 200px;
+    max-height: 150px;
     margin: 10px;
     vertical-align: top;
 }
 
 .project-description-text {
-    min-height: 50px;
+    height: 50px;
     overflow: hidden;
   }
 
+  .project-description {
+    display: inline-flex;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
 .separator {
     border-bottom: 1px solid black;
+}
+
+iframe {
+    display: block;
+    margin: auto;
 }
