@@ -15,7 +15,7 @@
 </nav>
 
 <div class="page-title">
-	<h1> Planet Generator </h1>
+	<h1> Thesis game </h1>
 </div>
 
 <div style="width: 80%; margin: 0 auto; max-height: fit-content;">
@@ -23,77 +23,25 @@
 	<div class="slideshow-container" style="float: right; margin: 10px; max-width: 40%; max-height: 40%;">
 		<!-- Full-width images with number and caption text -->
 		<div class="mySlides fade">
-		  <div class="numbertext">1 / 1</div>
-		  <img src="images/planetgenerator/solar-system.jpg" style="width:100%">
+		  <div class="numbertext">1 / 2</div>
+		  <img src="images/thesisgame/Final_Dist_programming.PNG" style="width:100%">
 		  <div class="text">Caption Text</div>
 		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 2</div>
+			<img src="images/thesisgame/v0.2.0_robot_path.png" style="width:100%">
+			<div class="text">Caption Two</div>
+		  </div>
 	
 		<!-- Next and previous buttons -->
 		<a class="prev" onclick="prevSlide(0)">&#10094;</a>
 		<a class="next" onclick="nextSlide(0)">&#10095;</a>
   	</div>
-	<p>I made this planet generator during my final individual Graphics Programming course project at ITU of Spring 2022. The planet generator was made in OpenGL and can render randomized planets in a small solar system. For the purposes of demonstration all of the planets are of equal sizes and spawn at a set location. Everything else is randomly generated at startup. The main inspiration was Space Engine and I wanted to make a mini-sized version of this.</p>
-</div>
+	<p>A programming game made as part of my Master thesis during the spring of 2023. In the game the player controls a robot through a visual programming language. 
 
-<div class="separator" style="clear: both;"></div>
-
-<div style="width: 80%; margin: 0 auto; max-height: fit-content;">
-	<h2 class="w3-wide">Landscape generation</h2>
-	<div class="slideshow-container" style="float: right; margin: 10px; max-width: 40%; max-height: 40%;">
-		<!-- Full-width images with number and caption text -->
-		<div class="mySlides fade">
-		  <div class="numbertext">1 / 3</div>
-		  <img src="images/planetgenerator/biome1.jpg" style="width:100%">
-		  <div class="text">Caption Text</div>
-		</div>
-	
-		<div class="mySlides fade">
-		  <div class="numbertext">2 / 3</div>
-		  <img src="images/planetgenerator/simplex_0.png" style="width:100%">
-		  <div class="text">Caption Two</div>
-		</div>
-	
-		<div class="mySlides fade">
-		  <div class="numbertext">3 / 3</div>
-		  <img src="images/planetgenerator/simplex_1.png" style="width:100%">
-		  <div class="text">Caption Three</div>
-		</div>
-	
-		<!-- Next and previous buttons -->
-		<a class="prev" onclick="prevSlide(1)">&#10094;</a>
-		<a class="next" onclick="nextSlide(1)">&#10095;</a>
-  	</div>
-	<p>The landscape is generated using Simplex noise, which gives the landscape a natural look with mountain ranges.
-		Each of the three planets at startup have a randomly generated biomes and landscapes with varying amounts of mountains.</p>
-</div>
-
-<div class="separator" style="clear: both;"></div>
-
-<div style="width: 80%; margin: 0 auto; max-height: fit-content;">
-	<h2 class="w3-wide">Atmosphere</h2>
-	<div class="slideshow-container" style="float: right; margin: 10px; max-width: 40%; max-height: 40%;">
-		<!-- Full-width images with number and caption text -->
-		<div class="mySlides fade">
-		  <div class="numbertext">1 / 2</div>
-		  <img src="images/planetgenerator/atmosphere1.jpg" style="width:100%">
-		  <div class="text">Caption Text</div>
-		</div>
-	
-		<div class="mySlides fade">
-		  <div class="numbertext">2 / 2</div>
-		  <img src="images/planetgenerator/atmosphere2.jpg" style="width:100%">
-		  <div class="text">Caption Two</div>
-		</div>
-	
-		<!-- Next and previous buttons -->
-		<a class="prev" onclick="prevSlide(2)">&#10094;</a>
-		<a class="next" onclick="nextSlide(2)">&#10095;</a>
-  	</div>
-	<p>Each planet has the same type of atmosphere. The atmosphere effect is calculated from the Rayleigh scattering reflecting more blue light back at the camera.
-
-		Rayleigh scattering is the scattering of light by small particles in the atmosphere. It causes shorter wavelengths blue to scatter more than longer wavelengths, which is why the sky is blue.
-		
-		As the amount of blue wavelength light is reduced, the more reddish the light reflected becomes as the light travels through the atmosphere, the redder the reflected light gets. This is why sunsets are reddish.</p>
+		During this project I primarily worked on the programming aspect of the game. I made the backend logic, where commands in the user interface is translated to code that the robot can execute. 
+		I also made the visual front-end of the programming interface.</p>
 </div>
 
 <div class="separator" style="clear: both;"></div>
