@@ -2,32 +2,49 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="index.css">
-<body>
+<head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+	</style>
+</head>
 
-<!-- Content will go here -->
-<nav class="w3-bar w3-black">
-	<a href="index.html" class="w3-button w3-bar-item">Home</a>
-	<a href="projects/projects.html" class="w3-button w3-bar-item">Projects</a>
-	<a href="about/about.html" class="w3-button w3-bar-item">About me</a>
-</nav>
+<body>
 
 <div class="alert-box">
 	<h1><a href="https://drive.google.com/file/d/1vk0-rmZznMk2feHg1a6ig61Leb7cMprh/view?usp=drive_link">Site still work in progress. Click here to see my portfolio in PDF format.</a> </h1>
 </div>
 
+<div class="navbar">  
+	<div class="navbar-title">
+    	Patrick Corell
+  	</div>
+	<div class="navbar-items">  
+		<a href="index.html" class="navbar-item">Home</a>
+		<a href="projects/projects.html"  class="navbar-item">Projects</a>
+		<a href="about/about.html" class="navbar-item">About</a>
+	</div> 
+</div>
+
+<div class="separator" style="clear: both;"></div>
+
+
+
 
 <!-- About me section -->
-
-<div class="content-box">
-	<div class="columns" style="width: 80%; margin: 0 auto;">
+<div class="section">
+	<div class="title">
+		About me
+	</div>
+	<div class="description">
+		Programmer with a degree in Games. Interest in Graphics Programming and AI.
+	</div>
+	<div style="width: 80%; margin: 0 auto;">
 		<div style="float: right;"> 
-			<div class="project-description">
+			<div class="image-description">
 				<a href="about/about.html" class="w3-button w3-bar-item">
-					<img class="project-description-image" src="about/images/profile.jpg">
-					<p class="project-description-text">
+					<img src="about/images/profile.jpg">
+					<p>
 						I am a newly graduated software engineer <br>
 						who has both broad technical <br>
 						experience and work experience.</p>
@@ -55,62 +72,60 @@
 	</div>
 </div>
 
-
-
 <div class="separator" style="clear: both;"></div>
 
-<!-- Projects I've worked on go here -->
-<div class="rows" style="width: 80%; margin: 0 auto; text-align: center;">
+<!-- Projects I've worked on -->
+<div class="section">
+	<div class="title">
+		Personal projects
+	</div>
+	<div class="description">
+		Personal projects
+	</div>
 	<div style="margin: 10px; max-height: 40%;">
-		<h2 class="w3-wide">Personal projects</h2>
-		<p></p>
-	</div> 
-	<div style="margin: 10px; max-height: 40%;">
-		<div class="project-description">
+		<div class="image-description">
 			<a href="projects/planetgenerator.html" class="w3-button w3-bar-item">
-				<img class="project-description-image" src="projects/images/planetgenerator/atmosphere2.jpg" href="index.html">
-				<p class="project-description-text">Planet Generator</p>
+				<img src="projects/images/planetgenerator/atmosphere2.jpg" href="index.html">
+				<p>Planet Generator</p>
 			</a>
 		</div>
-		<div class="project-description">
+		<div class="image-description">
 			<a href="projects/doomagents.html" class="w3-button w3-bar-item">
-				<img class="project-description-image" src="projects/images/doomagents/DoomGame.PNG" href="index.html">
-				<p class="project-description-text">Doom Agent (Article WIP)</p>
+				<img src="projects/images/doomagents/DoomGame.PNG" href="index.html">
+				<p>Doom Agent (Article WIP)</p>
 			</a>
 		</div>
-		<div class="project-description">
+		<div class="image-description">
 			<a href="projects/thesisgame.html" class="w3-button w3-bar-item">
-				<img class="project-description-image" src="projects/images/thesisgame/Final_Robot.PNG" href="index.html">
-				<p class="project-description-text">Thesis game  (Article WIP)</p>
+				<img src="projects/images/thesisgame/Final_Robot.PNG" href="index.html">
+				<p>Thesis game (Article WIP)</p>
 			</a>
 		</div>
-		<div class="project-description">
+		<div class="image-description">
 			<a href="projects/combatbees.html" class="w3-button w3-bar-item">
-				<img class="project-description-image" src="projects/images/combatbees/combatBees.png" href="index.html">
-				<p class="project-description-text">Combat bees  (Article WIP)</p>
+				<img src="projects/images/combatbees/combatBees.png" href="index.html">
+				<p>Combat bees (Article WIP)</p>
 			</a>
 		</div>
-		<div class="project-description">
+		<div class="image-description">
 			<a href="projects/tempest.html" class="w3-button w3-bar-item">
-				<img class="project-description-image" src="projects/images/tempest/Tempest.jpg" href="index.html">
-				<p class="project-description-text">Tempest (Article WIP)</p>
+				<img src="projects/images/tempest/Tempest.jpg" href="index.html">
+				<p>Tempest (Article WIP)</p>
 			</a>
 		</div>
 	</div>
+
 </div>
 
 <div class="separator" style="clear: both;"></div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+<footer class="footer">
 	<a href="#"><i class="fa fa-facebook-official"></i></a>
 	<a href="#"><i class="fa fa-pinterest-p"></i></a>
 	<a href="#"><i class="fa fa-twitter"></i></a>
 	<a href="#"><i class="fa fa-flickr"></i></a>
 	<a href="#"><i class="fa fa-linkedin"></i></a>
-	<p class="w3-medium">
-	  Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-	</p>
 </footer>
 
 </body>

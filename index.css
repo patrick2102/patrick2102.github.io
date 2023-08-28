@@ -1,32 +1,85 @@
 
-.content-box {
-    border: 1px solid black;
-    background-color: beige;
-    width: auto;
-    margin: 2%;
-}
 
 .alert-box {
     background-color: indianred;
-    width: auto;
     margin: 2%;
     text-align: center;
 }
 
-.split-box-horizontal
-{
-    
 
+
+
+/* Navigation bar */
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: gainsboro;
 }
 
-.content {
-        width: 50%;
-        margin:auto;
+.navbar-title {
+    font-size: 48px;
+    margin: 0.5% 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-items 
+{
+    display: flex;
+}
+
+.navbar-item
+{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+
+    text-decoration: solid;
+    font-size: 24px;
+    color: black;
+
+    background-color: darkgrey;
+}
+
+
+/* Sections */
+
+.section {
+    border: 1px solid black;
+    background-color: beige;
+    width: auto;
+    margin: 5%;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .title {
+    font-size: 48px;
     text-align: center;
 }
+
+.description
+{
+    font-size: medium;
+    margin: 50px;
+}
+
+
+.content {
+    width: 50%;
+    margin:auto;
+}
+
+
 
 .page-title
 {
@@ -34,29 +87,37 @@
     margin: auto;
 }
 
-.project-description img {
-    height: 150px;
-    margin: 10px;
-    vertical-align: top;
-}
-
-.project-description-text {
-    height: 100px;
-    overflow: hidden;
-  }
-
-  .project-description {
+.image-description {
     display: inline-flex;
     width: auto;
     height: 350px;
     margin: 10px;
 }
 
+.image-description img {
+    height: 150px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.image-description p {
+    height: 100px;
+    overflow: hidden;
+  }
+
+
+
 .separator {
-    border-bottom: 1px solid black;
+    border-bottom: 1px;
 }
 
 iframe {
     display: block;
     margin: auto;
 }
+
+body 
+{
+    font-family: 'Playfair Display', serif;
+}
+  
