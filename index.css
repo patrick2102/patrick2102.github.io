@@ -93,6 +93,7 @@
     padding: 1%;
     padding-left: 5%;
     padding-right: 5%;
+    opacity: 80%;
 }
 
 .section-title {
@@ -105,6 +106,7 @@
 {
     font-size: 24px;
 }
+
 
 /* Images */
 
@@ -205,6 +207,11 @@ body
     padding: 0;
     background-color:rgb(32, 30, 41);
     color:white;
+    
+    background-blend-mode: multiply;
+    background-image: url("projects/images/placeholder/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
