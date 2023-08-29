@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 <head>
 	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
 	</style>
 </head>
 
@@ -16,11 +16,10 @@
 </div>
 
 <div class="navbar">  
-	<div class="navbar-title">
+	<a href="index.html" class="navbar-title">
     	Patrick Corell
-  	</div>
+  	</a>
 	<div class="navbar-items">  
-		<a href="index.html" class="navbar-item">Home</a>
 		<a href="projects/projects.html"  class="navbar-item">Projects</a>
 		<a href="about/about.html" class="navbar-item">About</a>
 	</div> 
@@ -32,87 +31,73 @@
 
 
 <!-- About me section -->
-<div class="section">
-	<div class="title">
+<div class="section" style="padding-right: 0;">
+	<div class="section-title">
 		About me
+	</div>	
+	<div class="section-description">
+		I am deeply interested in AI and graphics programming. Looking for a full-time job.
 	</div>
-	<div class="description">
-		Programmer with a degree in Games. Interest in Graphics Programming and AI.
+	<div class="profile-description" style="float: right;">
+		<a href="about/about.html">
+			<img src="about/images/profile.jpg">
+		</a>
 	</div>
-	<div style="width: 80%; margin: 0 auto;">
-		<div style="float: right;"> 
-			<div class="image-description">
-				<a href="about/about.html" class="w3-button w3-bar-item">
-					<img src="about/images/profile.jpg">
-					<p>
-						I am a newly graduated software engineer <br>
-						who has both broad technical <br>
-						experience and work experience.</p>
-				</a>
-			</div>
-		</div>
-		<div> 
-			<h2>About me</h2>
-			<p>Programmer with a degree in Games. Interest in Graphics Programming and AI. </p>
-			<h2>Skills</h2>
-			<ul>
-				<li>C#</li>
-				<li>Java</li>
-				<li>C++</li>
-				<li>C</li>
-				<li>GLSL</li>
-				<li>Python</li>
-				<li>Kotlin</li>
-				<li>SQL</li>
-				<li>HTML</li>
-				<li>JavaScript</li>
-				<li>CSS</li>
-			</ul>
-		</div>
+	<div>
+		<h2>Education</h2>
+		<ul>
+			<li>BSc in Software Development at ITU</li>
+			<li>MSc in Games Technology Track</li>
+		</ul>
+		<h2>Skills</h2>
+		<ul>
+			<li>C#</li>
+			<li>Java</li>
+			<li>C++</li>
+			<li>C</li>
+			<li>GLSL</li>
+			<li>Python</li>
+			<li>Kotlin</li>
+			<li>SQL</li>
+			<li>HTML</li>
+			<li>JavaScript</li>
+			<li>CSS</li>
+		</ul>
+		<div class="separator-no-margin" style="clear: both;"></div>
 	</div>
 </div>
-
 <div class="separator" style="clear: both;"></div>
+
 
 <!-- Projects I've worked on -->
 <div class="section">
-	<div class="title">
+	<div class="section-title">
 		Personal projects
 	</div>
-	<div class="description">
-		Personal projects
+	<div class="section-description">
+		Below is a selection of personal projects I've worked on. 
 	</div>
-	<div style="margin: 10px; max-height: 40%;">
-		<div class="image-description">
-			<a href="projects/planetgenerator.html" class="w3-button w3-bar-item">
-				<img src="projects/images/planetgenerator/atmosphere2.jpg" href="index.html">
-				<p>Planet Generator</p>
-			</a>
-		</div>
-		<div class="image-description">
-			<a href="projects/doomagents.html" class="w3-button w3-bar-item">
-				<img src="projects/images/doomagents/DoomGame.PNG" href="index.html">
-				<p>Doom Agent (Article WIP)</p>
-			</a>
-		</div>
-		<div class="image-description">
-			<a href="projects/thesisgame.html" class="w3-button w3-bar-item">
-				<img src="projects/images/thesisgame/Final_Robot.PNG" href="index.html">
-				<p>Thesis game (Article WIP)</p>
-			</a>
-		</div>
-		<div class="image-description">
-			<a href="projects/combatbees.html" class="w3-button w3-bar-item">
-				<img src="projects/images/combatbees/combatBees.png" href="index.html">
-				<p>Combat bees (Article WIP)</p>
-			</a>
-		</div>
-		<div class="image-description">
-			<a href="projects/tempest.html" class="w3-button w3-bar-item">
-				<img src="projects/images/tempest/Tempest.jpg" href="index.html">
-				<p>Tempest (Article WIP)</p>
-			</a>
-		</div>
+	<div class="grid">
+		<a href="projects/planetgenerator.html" class="image-description">
+			<img src="projects/images/planetgenerator/atmosphere2.jpg">
+			<p>Planet Generator</p>
+		</a>
+		<a href="projects/doomagents.html" class="image-description">
+			<img src="projects/images/doomagents/DoomGame.PNG" href="index.html">
+			<p>Doom Agent (Article WIP)</p>
+		</a>
+		<a href="projects/thesisgame.html" class="image-description">
+			<img src="projects/images/thesisgame/Final_Robot.PNG" href="index.html">
+			<p>Thesis game (Article WIP)</p>
+		</a>
+		<a href="projects/combatbees.html" class="image-description">
+			<img src="projects/images/combatbees/combatBees.png" href="index.html">
+			<p>Combat bees (Article WIP)</p>
+		</a>
+		<a href="projects/tempest.html" class="image-description">
+			<img src="projects/images/tempest/Tempest.jpg" href="index.html">
+			<p>Tempest (Article WIP)</p>
+		</a>
 	</div>
 
 </div>
